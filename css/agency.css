@@ -121,6 +121,16 @@ body {
     border: none;
     background-color: transparent;
 }
+@media (min-width:992px) {
+    #mainNav2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top .3s, padding-bottom .3s;
+    -moz-transition: padding-top .3s, padding-bottom .3s;
+    transition: padding-top .3s, padding-bottom .3s;
+    border: none;
+    background-color: #13294b;
+}
 #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all .3s;
