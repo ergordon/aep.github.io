@@ -80,7 +80,7 @@ body {
     -webkit-tap-highlight-color: #fed136;
 }
 #mainNav {
-    background-color: #212529;
+    background-color: #13294b;
 }
 #mainNav .navbar-toggler {
     font-size: 12px;
@@ -89,7 +89,7 @@ body {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #fed136;
+    background-color: #13294b;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 #mainNav .navbar-brand {
@@ -133,7 +133,7 @@ body {
 #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #13294b;
 }
 #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -310,7 +310,7 @@ header.masthead .intro-text .intro-heading {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #212529;
+    background-color: #13294b;
 }
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
@@ -319,7 +319,7 @@ header.masthead .intro-text .intro-heading {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    background-color: #212529;
+    background-color: #13294b;
 }
 .timeline {
     position: relative;
@@ -500,7 +500,7 @@ header.masthead .intro-text .intro-heading {
     margin-top: 0;
 }
 section#contact {
-    background-color: #212529;
+    background-color: #13294b;
     background-image: url(../img/map-image.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -576,7 +576,7 @@ ul.social-buttons li a {
     color: #fff;
     border-radius: 100%;
     outline: 0;
-    background-color: #212529;
+    background-color: #13294b;
 }
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #fed136;
