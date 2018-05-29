@@ -10,7 +10,7 @@ p {
     line-height: 1.75;
 }
 a {
-    color: #fed136;
+    color: #da8600;/*#fed136;*/
 }
 a:hover {
     color: #fec503;
@@ -109,7 +109,7 @@ body {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color: #da8600/*#fed136*/;
 }
 @media (min-width:992px) {
     #mainNav {
