@@ -8365,6 +8365,10 @@ a.text-dark:focus, a.text-dark:hover {
   border: 0;
 }
 
+.text-lite {
+  color: #fff;
+}
+
 .visible {
   visibility: visible !important;
 }

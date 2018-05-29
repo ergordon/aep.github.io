@@ -11,7 +11,7 @@
   <title>Electric Propulsion Lab | Aerospace at Illinois</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -19,58 +19,60 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
-
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav2">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Aerospace at Illinois</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Aerospace at Illinois</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fa fa-bars"></i>
+        Menu<i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="/#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#research">Research</a>
+            <a class="nav-link js-scroll-trigger" href="/#Personnel">Personnel</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#facility">Facility</a>
+          <li class="nav-item dropdown" id="LabCapabilities">
+            <a class="nav-link dropdown-toggle" href="/#LabCapabilities" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lab Capabilities</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="facilities.html">Facilities</a>
+              <a class="dropdown-item" href="research.html">Research</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#team">Personnel</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="publications.html">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="news.html">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
-          </li>
-        </ul>
+          <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="publications.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+
+    <!-- Research Grid -->
+    <section class="bg-dark" id="research" style="margin-top: 50px; width: 100%; height: 150px">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-light text-uppercase">Publications</h2>
+          <h3 class="section-subheading text-light text-muted"><a href="/#">Home</a> - Publications</h3>
+        </div>
       </div>
     </div>
-  </nav>
-
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container" style="z-index: 1000">
-      <div class="intro-text">
-        <div class="intro-lead-in">Publications</div>
-        <p class="text-muted">We have added more than 70 lab publications dating from 1990! Below is the list of recent additions, including contributions to chapters in books, PhD dissertations, MS theses and student conference publications.</p>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Learn More</a>
-      </div>
-    </div>
-
-  </header>
+    </section>
 <!--Journal Publications-->
   <section id="Jpublications">
     <div class="container">
@@ -103,14 +105,43 @@
             </td>
           </tr>
           <!--End Entry Row-->
+          <!--Begin Entry Row-->
           <tr>
             <td class="tbl-publications-content tbl-publications-content-center"><a href="../Publications/Woo-JSR-2011-AIAA-51519-241.pdf"  target="_blank"><img class="img-btn" src="../img/download.svg" style="width: 12px!important; max-width: 12px!important; border: none!important; margin: 0px!important; padding: 0px!important"></a></td>
             <td class="tbl-publications-content">Deployment Experiment for Ultra large Solar Sail System (UltraSail)</td>
             <td class="tbl-publications-content">Journal of Spacecraft and Rockets,<br>Vol. 48, No. 5, pp. 874-880<br>DOI 10.2514/1.51519</td>
             <td class="tbl-publications-content tbl-publications-content-center">2011</td>
-            <td class="tbl-publications-content">B. Woo, K.M. Ertmer, V.L. Coverstone, R.L. Burton, G.F. Benavides, and D.L. Carroll
-            </td>
+            <td class="tbl-publications-content">B. Woo, K.M. Ertmer, V.L. Coverstone, R.L. Burton, G.F. Benavides, and D.L. Carroll</td>
           </tr>
+          <!--End Entry Row-->
+          <!--Begin Entry Row-->
+          <tr>
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Charging of Macroparticles in a Pulsed Vacuum Arc Discharge,</td>
+            <td class="tbl-publications-content">IEEE Transactions on Plasma Science <br> Vol. 36, No. 5, 2147-2162</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2008</td>
+            <td class="tbl-publications-content">Rysanek, F. and Burton, R. L.</td>
+          </tr>
+          <!--End Entry Row-->
+          <!--Begin Entry Row-->
+          <tr>
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Optimized Low-Thrust Orbit Transfer for Space Tugs</td>
+            <td class="tbl-publications-content">Journal of Spacecraft and Rockets <br> Vol. 45, No. 1, 151-153</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2008</td>
+            <td class="tbl-publications-content">Pukniel and Burton, R. L.</td>
+          </tr>
+          <!--End Entry Row-->
+          <!--Begin Entry Row-->
+          <tr>
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Structural Dynamics of Spin-Stabilized Solar Sails with Applications to UltraSail</td>
+            <td class="tbl-publications-content">Journal of Guidance, Control, and Dynamics <br> Vol. 31, No. 2, 402-413</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2008</td>
+            <td class="tbl-publications-content">Botter, T, Coverstone, V. L. and Burton, R.</td>
+          </tr>
+          <!--End Entry Row-->
+
 
         </tbody>
       </table></div>
@@ -153,31 +184,182 @@
             <td class="tbl-publications-content">R. Burton, G. Eden, S.J. Park, L. Raja, D. Carroll, et al.
             </td>
           </tr>
+                    <!--Begin Entry Row-->
+          <tr>
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Initial Development of the CubeSail/UltraSail Spacecraft</td>
+            <td class="tbl-publications-content">Paper 1388, Joint Army Navy NASA Air Force (JANNAF) <br>Spacecraft Propulsion Subcommittee Meeting</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2010</td>
+            <td class="tbl-publications-content">Burton, R., Coverstone, V., Swenson, G., et al.</td>
+          </tr>
+          <!--End Entry Row-->
+                    <!--Begin Entry Row-->
+          <tr>
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Advances in Microcavity Discharge Thruster Technology</td>
+            <td class="tbl-publications-content">AIAA Paper No. 2010-6616</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2010</td>
+            <td class="tbl-publications-content">De Chadenedes, M., Ahern, D., Alaimo, J., Cho, J-H, Park, S-J, Eden, J. G., Burton, R. L., Yoon, J. K., Garrett, S., Sitaraman, H., Raja, L., Laystrom-Woodard, J., Benavides, G., and Carroll, D. L.</td>
+          </tr>
+          <!--End Entry Row-->
+                    <!--Begin Entry Row-->
+          <tr>
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Initial Development of the Microcavity Discharge Thruster</td>
+            <td class="tbl-publications-content">Proceedings of the 31st International Electric Propulsion Conference<br>IEPC-2009-169</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2009</td>
+            <td class="tbl-publications-content">Burton, R. L., Eden, J. G., Park, S.-J., Yoon, J. K., de Chadenedes, M., Garrett, S., Raja, L. L., Sitaraman, H., Laystrom-Woodard, J., Benavides, G., and Carroll, D.</td>
+          </tr>
+          <!--End Entry Row-->
+                    <!--Begin Entry Row-->
+          <tr>
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">A Preliminary Study of the Dynamics and Control of the UltraSail CubeSat</td>
+            <td class="tbl-publications-content">AAS Guidance and Control Conference</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2009</td>
+            <td class="tbl-publications-content">Pukniel, A., Coverstone, V., and Burton, R.</td>
+          </tr>
+          <!--End Entry Row-->
+                    <!--Begin Entry Row-->
+          <tr>
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Preliminary Development and Testing of a Self-Injecting Gallium MPD Thruster,</td>
+            <td class="tbl-publications-content">44th AIAA/ASME/SAE/ASEE Joint Propulsion Conference <br> AIAA Paper No. 2008-5081</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2008</td>
+            <td class="tbl-publications-content">Thomas, R. E., Burton, R. L., and Polzin, K. A.</td>
+          </tr>
+          <!--End Entry Row-->
 
         </tbody>
-      </table></div>
+      </table>
+      </div>
 
-      <!-- Footer -->
-      <footer>
-        <div class="container">
-
+    <!--Chapters in Books-->
+    <section id="CiBpublications">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Chapters in Books</h2>
+          </div>
         </div>
-      </footer>
+      </div>
+    </section>
+    <div class="container">
+      <table id="primary">
+        <thead>
+          <tr>
+            <th>View</th>
+            <th>Title</th>
+            <th>Reference</th>
+            <th>Authors</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!--Begin Entry Row-->
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Pulsed Plasma Thruster Performance for Microspacecraft Propulsion</td>
+            <td class="tbl-publications-content">AIAA Progress Series, Vol. 187, Micropropulsion for Small Spacecraft, M. Micci, ed., Chapter 13, 2000, pp. 337 - 352.</td>
+            <td class="tbl-publications-content" style="width: 250px; max-width: 250px;">Burton, R. L., Rysanek, F., Antonsen, E. A., Wilson, M. J., and Bushman, S. S.</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
 
-      <!-- Bootstrap core JavaScript -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-      <!-- Plugin JavaScript -->
-      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!--PhD Dissertations-->
+    <section id="PhDpublications">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">PhD Dissertations</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <table id="primary">
+        <thead>
+          <tr>
+            <th>View</th>
+            <th>Title</th>
+            <th>Conference</th>
+            <th>Year</th>
+            <th>Authors</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!--Begin Entry Row-->
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">A Multiple-Cathode, High-Power, Rectangular Ion Thruster Discharge Chamber for Increasing Thruster Lifetime</td>
+            <td class="tbl-publications-content">Department of Aerospace Engineering <br>The University of Michigan Ann Arbor</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2016</td>
+            <td class="tbl-publications-content" style="width: 250px; max-width: 250px;">Rovey, J.L.</td>
+          </tr>
 
-      <!-- Contact form JavaScript -->
-      <script src="js/jqBootstrapValidation.js"></script>
-      <script src="js/contact_me.js"></script>
+        </tbody>
+      </table>
+      </div>
 
-      <!-- Custom scripts for this template -->
-      <script src="js/agency.min.js"></script>
 
-    </body>
+        <!--MS Theses-->
+    <section id="MSpublications">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">MS Theses</h2>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </html>
+    <div class="container">
+      <table id="primary">
+        <thead>
+          <tr>
+            <th>View</th>
+            <th>Title</th>
+            <th>Presented</th>
+            <th>Year</th>
+            <th>Authors</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!--Begin Entry Row-->
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Investigation of the GEM MPD Thruster using Mach2 Magnetohydrodynamics Code</td>
+            <td class="tbl-publications-content">Department of Aerospace Engineering<br> University of Illinois Urbana-Champaign</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2013</td>
+            <td class="tbl-publications-content" style="width: 250px; max-width: 250px;">Ahern, D.</td>
+          </tr>
+          <!--End Entry Row-->
+          <tr>
+            <td class="tbl-publications-content tbl-publications-content-center"></td>
+            <td class="tbl-publications-content">Propulsion Performance of a Microcavity Discharge Device</td>
+            <td class="tbl-publications-content">Department of Aerospace Engineering<br> University of Illinois Urbana-Champaign</td>
+            <td class="tbl-publications-content tbl-publications-content-center">2011</td>
+            <td class="tbl-publications-content">De Chadenedes, M.L.
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+      </div>
+
+    <!-- Footer -->
+    <footer><div class="container"></div></footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.js"></script>
+
+  </body>
+</html>
