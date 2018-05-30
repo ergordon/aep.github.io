@@ -2386,6 +2386,7 @@ fieldset[disabled] a.btn {
   border-color: #28a745;
 }
 
+
 .btn-success:not([disabled]):not(.disabled):active, .btn-success:not([disabled]):not(.disabled).active,
 .show > .btn-success.dropdown-toggle {
   color: #fff;
@@ -2885,23 +2886,27 @@ tbody.collapse.show {
 }
 
 .dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 10rem;
-  padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
-  font-size: 1rem;
-  color: #212529;
-  text-align: left;
-  list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 11rem;
+    padding: 0.5rem 0;
+    /* margin: 0.125rem 0 0; */
+    font-size: 1rem;
+    /* color: #fff; */
+    text-align: left;
+    list-style: none;
+    background-color: #132a4b;
+    background-clip: padding-box;
+    /* border: 1px solid rgba(0, 0, 0, 0.15); */
+    /*border-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;*/
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
 }
 
 .dropup .dropdown-menu {
@@ -2934,12 +2939,13 @@ tbody.collapse.show {
 }
 
 .dropdown-item {
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: block;
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #fff;
   text-align: inherit;
   white-space: nowrap;
   background: none;
