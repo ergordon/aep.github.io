@@ -260,11 +260,6 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.portfolio-modal .modal-content .portfolio-item-text{
-    padding: 100px 0;
-    text-align: justify;
-}
-
 #portfolio * {
     z-index: 2;
 }
